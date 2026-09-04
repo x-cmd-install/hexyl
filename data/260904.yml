@@ -7,7 +7,7 @@ about:
   head: 6ecc29b
   archived: false
   latestVersion: v0.17.0
-  collectedAt: 2026-09-04T19:56:30Z
+  collectedAt: 2026-09-04T20:47:17Z
 timeline:
   created: 2018-11-05
   lastCommit: 2026-04-30
@@ -80,6 +80,34 @@ total:
   openIssue: 20
   commit: 490
 ---
+path: /home/runner/.x-repo/github.com/sharkdp/hexyl
+collectedAt: 2026-09-04T20:47:17Z
+loc:
+  Rust:
+    code: 2855
+    comments: 106
+    blanks: 333
+    files: 7
+  Svg:
+    code: 193
+    comments: 1
+    blanks: 1
+    files: 1
+  Toml:
+    code: 32
+    comments: 0
+    blanks: 4
+    files: 1
+  Markdown:
+    code: 0
+    comments: 414
+    blanks: 249
+    files: 4
+total:
+  code: 3083
+  comments: 605
+  blanks: 589
+  files: 13
 ---
 date: "2026-08-24"
 repo:
