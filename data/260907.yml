@@ -5,7 +5,7 @@ about:
   head: 6ecc29b
   archived: false
   latestVersion: "v0.17.0"
-  collectedAt: 2026-09-07T05:05:44Z
+  collectedAt: 2026-09-07T19:23:19Z
 timeline:
   created: 2018-11-05
   lastCommit: 2026-04-30
@@ -79,7 +79,7 @@ total:
   commit: 490
 ---
 path: /home/runner/.x-repo/github.com/sharkdp/hexyl
-collectedAt: 2026-09-07T05:05:44Z
+collectedAt: 2026-09-07T19:23:20Z
 loc:
   Rust:
     code: 2855
@@ -210,7 +210,7 @@ checks:
       - 'Warn: 0 commits out of 17 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:05:45+00:00
+  collectedAt: 2026-09-07T19:23:20+00:00
   platform:
     darwin/arm64:
       name:  hexyl-v0.17.0-aarch64-apple-darwin.tar.gz
