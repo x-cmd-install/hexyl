@@ -1,6 +1,24 @@
----
-owner-repo: sharkdp/hexyl
-desc:   A command-line hex viewer 
----
-
 # hexyl
+
+A command-line hex viewer
+
+- **Upstream**: <https://github.com/sharkdp/hexyl>
+- **Homepage**: <>
+- **Latest release**: `v0.17.0` (2026-02-14)
+- **Last commit**: 2026-04-30
+- **License**: Apache-2.0
+- **Stars**: 10268 · **Forks**: 269 · **Open issues**: 124 · **Contributors**: 57
+
+## Installation
+
+```sh
+x install hexyl
+```
+
+See <https://x-cmd.com/install/hexyl> for details.
+
+## Data
+
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+
+_Last regenerated: 2026-09-08T11:14:08Z._
