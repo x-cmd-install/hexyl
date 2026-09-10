@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.17.0"
   latestRelease: "v0.17.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:43:05Z
+  collectedAt: 2026-09-10T23:18:55Z
 timeline:
   created: 2018-11-05
   lastCommit: 2026-04-30
@@ -83,7 +83,7 @@ total:
   commit: 490
 ---
 path: /home/runner/.x-repo/github.com/sharkdp/hexyl
-collectedAt: 2026-09-10T20:43:07Z
+collectedAt: 2026-09-10T23:18:55Z
 loc:
   Rust:
     code: 2855
