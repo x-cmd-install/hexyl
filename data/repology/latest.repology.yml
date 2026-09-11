@@ -1,15 +1,67 @@
-- repo: parabola
-  subrepo: extra
+- repo: termux
   srcname: hexyl
   binname: hexyl
   visiblename: hexyl
   version: 0.17.0
-  origversion: 0.17.0-1
+  origversion: null
   status: newest
-  summary: Colored command-line hex viewer
+  summary: A command-line hex viewer
+  maintainers:
+    - termux@github
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: rust-hexyl
+  binnames:
+    - librust-hexyl-dev
+    - hexyl
+  visiblename: rust-hexyl
+  version: 0.6.0
+  origversion: 0.6.0-2build1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - wolfgang@silbermayr.at
+  categories:
+    - universe/misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-hexyl
+  binnames:
+    - librust-hexyl-dev
+    - hexyl
+  visiblename: rust-hexyl
+  version: 0.16.0
+  origversion: 0.16.0-4
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - wolfgang@silbermayr.at
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: hexyl
+  visiblename: hexyl
+  version: 0.17.0
+  origversion: null
+  status: newest
   licenses:
     - Apache-2.0
-    - MIT
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: rust-hexyl
+  binnames:
+    - librust-hexyl-dev
+    - hexyl
+  visiblename: rust-hexyl
+  version: 0.8.0
+  origversion: 0.8.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - wolfgang@silbermayr.at
+  categories:
+    - universe/misc
 - repo: aerynos
   srcname: hexyl
   visiblename: hexyl
@@ -224,6 +276,20 @@
     - wolfgang@silbermayr.at
   categories:
     - misc
+- repo: nix_stable_25_05
+  srcname: hexyl
+  visiblename: hexyl
+  version: 0.16.0
+  origversion: null
+  status: outdated
+  summary: Command-line hex viewer
+  maintainers:
+    - dywedir@gra.red
+    - figsoda@pm.me
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: debian_13
   subrepo: trixie/main
   srcname: rust-hexyl
@@ -327,24 +393,6 @@
   categories:
     - misc
 - repo: fedora_39
-  subrepo: updates
-  srcname: rust-hexyl
-  binnames:
-    - hexyl
-    - rust-hexyl-devel
-    - rust-hexyl+default-devel
-    - rust-hexyl-debuginfo
-    - rust-hexyl-debugsource
-  visiblename: rust-hexyl
-  version: 0.14.0
-  origversion: 0.14.0-3.fc39
-  status: outdated
-  summary: Command-line hex viewer
-  licenses:
-    - MIT OR Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: release
   srcname: rust-hexyl
   binnames:
@@ -357,6 +405,24 @@
   version: 0.13.1
   origversion: 0.13.1-1.fc39
   status: legacy
+  summary: Command-line hex viewer
+  licenses:
+    - MIT OR Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: rust-hexyl
+  binnames:
+    - hexyl
+    - rust-hexyl-devel
+    - rust-hexyl+default-devel
+    - rust-hexyl-debuginfo
+    - rust-hexyl-debugsource
+  visiblename: rust-hexyl
+  version: 0.14.0
+  origversion: 0.14.0-3.fc39
+  status: outdated
   summary: Command-line hex viewer
   licenses:
     - MIT OR Apache-2.0
@@ -500,6 +566,45 @@
     - bofh@freebsd.org
   categories:
     - sysutils
+- repo: nix_stable_25_11
+  srcname: hexyl
+  visiblename: hexyl
+  version: 0.16.0
+  origversion: null
+  status: outdated
+  summary: Command-line hex viewer
+  maintainers:
+    - dywedir@gra.red
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_26_05
+  srcname: hexyl
+  visiblename: hexyl
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: Command-line hex viewer
+  maintainers:
+    - dywedir@gra.red
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_unstable
+  srcname: hexyl
+  visiblename: hexyl
+  version: 0.17.0
+  origversion: null
+  status: newest
+  summary: Command-line hex viewer
+  maintainers:
+    - dywedir@gra.red
+    - sandro.jaeckel@gmail.com
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: gentoo_ovl_guru
   srcname: sys-apps/hexyl
   visiblename: sys-apps/hexyl
@@ -678,59 +783,19 @@
   licenses:
     - Apache-2.0
     - MIT
-- repo: nix_stable_25_05
-  srcname: hexyl
-  visiblename: hexyl
-  version: 0.16.0
-  origversion: null
-  status: outdated
-  summary: Command-line hex viewer
-  maintainers:
-    - dywedir@gra.red
-    - figsoda@pm.me
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_25_11
-  srcname: hexyl
-  visiblename: hexyl
-  version: 0.16.0
-  origversion: null
-  status: outdated
-  summary: Command-line hex viewer
-  maintainers:
-    - dywedir@gra.red
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_26_05
+- repo: t2
   srcname: hexyl
   visiblename: hexyl
   version: 0.17.0
   origversion: null
   status: newest
-  summary: Command-line hex viewer
+  summary: A command-line hex viewer
   maintainers:
-    - dywedir@gra.red
-    - sandro.jaeckel@gmail.com
+    - rene@exactco.de
   licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_unstable
-  srcname: hexyl
-  visiblename: hexyl
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: Command-line hex viewer
-  maintainers:
-    - dywedir@gra.red
-    - sandro.jaeckel@gmail.com
-  licenses:
-    - Apache-2.0
-    - MIT
+    - APL
+  categories:
+    - extra/tool
 - repo: openbsd
   srcname: textproc/hexyl
   binname: hexyl
@@ -854,6 +919,18 @@
     - Apache-2.0 OR MIT
   categories:
     - Development/Tools/Other
+- repo: parabola
+  subrepo: extra
+  srcname: hexyl
+  binname: hexyl
+  visiblename: hexyl
+  version: 0.17.0
+  origversion: 0.17.0-1
+  status: newest
+  summary: Colored command-line hex viewer
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: pardus_21
   subrepo: main
   srcname: rust-hexyl
@@ -1009,83 +1086,6 @@
     - wolfgang@silbermayr.at
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-hexyl
-  binnames:
-    - librust-hexyl-dev
-    - hexyl
-  visiblename: rust-hexyl
-  version: 0.16.0
-  origversion: 0.16.0-4
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - wolfgang@silbermayr.at
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: hexyl
-  visiblename: hexyl
-  version: 0.17.0
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
-- repo: t2
-  srcname: hexyl
-  visiblename: hexyl
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: A command-line hex viewer
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - APL
-  categories:
-    - extra/tool
-- repo: termux
-  srcname: hexyl
-  binname: hexyl
-  visiblename: hexyl
-  version: 0.17.0
-  origversion: null
-  status: newest
-  summary: A command-line hex viewer
-  maintainers:
-    - termux@github
-- repo: trisquel_10_0
-  subrepo: nabia/main
-  srcname: rust-hexyl
-  binnames:
-    - librust-hexyl-dev
-    - hexyl
-  visiblename: rust-hexyl
-  version: 0.6.0
-  origversion: 0.6.0-2build1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - wolfgang@silbermayr.at
-  categories:
-    - universe/misc
-- repo: trisquel_11_0
-  subrepo: aramo/main
-  srcname: rust-hexyl
-  binnames:
-    - librust-hexyl-dev
-    - hexyl
-  visiblename: rust-hexyl
-  version: 0.8.0
-  origversion: 0.8.0-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - wolfgang@silbermayr.at
-  categories:
-    - universe/misc
 - repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: rust-hexyl

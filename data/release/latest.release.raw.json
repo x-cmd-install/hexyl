@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 507300,
       "digest": "sha256:d8c50f5ec688faf566ea4c13d6aa12a5681dc370dab3ffba0a9db935a5986630",
-      "download_count": 2499,
+      "download_count": 2503,
       "created_at": "2026-02-14T12:57:50Z",
       "updated_at": "2026-02-14T12:57:51Z",
       "browser_download_url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-aarch64-apple-darwin.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 531498,
       "digest": "sha256:70b97648935f98801fd3c3e4758ff4e92afcf7e75316ff65d4e4f5d2e321b658",
-      "download_count": 1459,
+      "download_count": 1468,
       "created_at": "2026-02-14T12:57:12Z",
       "updated_at": "2026-02-14T12:57:12Z",
       "browser_download_url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-aarch64-unknown-linux-gnu.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 535239,
       "digest": "sha256:55346f1dcee92bf93f32e104b0fb9d31fab8eec36532a9b6107b4e0e0aef5f46",
-      "download_count": 1133,
+      "download_count": 1136,
       "created_at": "2026-02-14T12:57:50Z",
       "updated_at": "2026-02-14T12:57:50Z",
       "browser_download_url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-apple-darwin.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 430403,
       "digest": "sha256:ab5c3442cff63f585553d4fce330eaa1ef1bd2584643f1a0e29ab7c13fc9566d",
-      "download_count": 5163,
+      "download_count": 5169,
       "created_at": "2026-02-14T12:57:38Z",
       "updated_at": "2026-02-14T12:57:38Z",
       "browser_download_url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-pc-windows-msvc.zip"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 555156,
       "digest": "sha256:71b7463b8716225b4248525066e24b1874e954e87f397096f53e8804e3360189",
-      "download_count": 3416,
+      "download_count": 3431,
       "created_at": "2026-02-14T12:56:51Z",
       "updated_at": "2026-02-14T12:56:51Z",
       "browser_download_url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-unknown-linux-gnu.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 600537,
       "digest": "sha256:82b374b800cc965f4116b9d5d6a50394945170d4f65b9ef6ced3b82b014de8a6",
-      "download_count": 16020,
+      "download_count": 16050,
       "created_at": "2026-02-14T12:56:57Z",
       "updated_at": "2026-02-14T12:56:57Z",
       "browser_download_url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-unknown-linux-musl.tar.gz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 473730,
       "digest": "sha256:af53da40607e9dd96beab8996c3163ed59d4fd768d78881cca8588c199dd9dcf",
-      "download_count": 263,
+      "download_count": 264,
       "created_at": "2026-02-14T12:56:51Z",
       "updated_at": "2026-02-14T12:56:51Z",
       "browser_download_url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl_0.17.0_amd64.deb"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 449352,
       "digest": "sha256:dfbb487644545d8ed7f9158a1fe81a5f93ce4c7ff34d4695e80a0dd4de7efb64",
-      "download_count": 62,
+      "download_count": 63,
       "created_at": "2026-02-14T12:57:12Z",
       "updated_at": "2026-02-14T12:57:13Z",
       "browser_download_url": "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl_0.17.0_arm64.deb"
