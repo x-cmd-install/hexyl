@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,300 · **Forks**: 278 · **Open issues**: 125 · **Contributors**: 57
+- **Stars**: 10,300 · **Forks**: 279 · **Open issues**: 126 · **Contributors**: 57
 
 ## Totals (cumulative)
 
-- **Releases**: 19 · **Merged PRs**: 111 · **Open PRs**: 20 · **Closed issues**: 104 · **Open issues**: 21 · **Commits**: 490
+- **Releases**: 19 · **Merged PRs**: 111 · **Open PRs**: 21 · **Closed issues**: 104 · **Open issues**: 22 · **Commits**: 490
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 0 | 4 | 0 | 1 | 0 |
-| last60d | 2026-08-27 | 0 | 0 | 6 | 0 | 1 | 0 |
-| 90d | 2026-07-28 | 0 | 0 | 9 | 0 | 2 | 0 |
-| last180d | 2026-04-29 | 0 | 0 | 13 | 0 | 2 | 0 |
-| 360d | 2025-10-31 | 1 | 3 | 18 | 2 | 7 | 7 |
-| last720d | 2024-11-05 | 2 | 14 | 19 | 8 | 9 | 37 |
+| 30d | 2026-09-27 | 0 | 0 | 4 | 0 | 2 | 0 |
+| last60d | 2026-08-28 | 0 | 0 | 7 | 0 | 2 | 0 |
+| 90d | 2026-07-29 | 0 | 0 | 10 | 0 | 3 | 0 |
+| last180d | 2026-04-30 | 0 | 0 | 14 | 0 | 3 | 0 |
+| 360d | 2025-11-01 | 1 | 3 | 19 | 2 | 8 | 7 |
+| last720d | 2024-11-06 | 2 | 14 | 20 | 8 | 10 | 37 |
 
 ## Release assets
 
@@ -97,7 +97,7 @@ Reported by **87** distros on [repology.org](https://repology.org/project/hexyl)
 | Ubuntu 26.04 LTS | `0.16.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.8.0` | ⚠️ outdated |
 | Arch | `0.17.0` | ✅ latest |
-| Homebrew | `0.17.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `0.14.0` | ⚠️ outdated |
 | Nix unstable | `0.17.0` | ✅ latest |
 | Void | `0.17.0` | ✅ latest |
@@ -113,4 +113,4 @@ Install metadata for hexyl lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:07:55Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:28:54Z._
