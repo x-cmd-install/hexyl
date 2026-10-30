@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,298 · **Forks**: 280 · **Open issues**: 126 · **Contributors**: 57
+- **Stars**: 10,299 · **Forks**: 280 · **Open issues**: 126 · **Contributors**: 57
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last60d | 2026-08-30 | 0 | 0 | 7 | 0 | 2 | 0 |
-| 90d | 2026-07-31 | 0 | 0 | 9 | 0 | 2 | 0 |
-| last180d | 2026-05-02 | 0 | 0 | 14 | 0 | 3 | 0 |
-| 360d | 2025-11-03 | 1 | 3 | 19 | 2 | 8 | 7 |
-| last720d | 2024-11-08 | 2 | 14 | 20 | 8 | 10 | 37 |
+| 30d | 2026-09-30 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last60d | 2026-08-31 | 0 | 0 | 6 | 0 | 2 | 0 |
+| 90d | 2026-08-01 | 0 | 0 | 9 | 0 | 2 | 0 |
+| last180d | 2026-05-03 | 0 | 0 | 14 | 0 | 3 | 0 |
+| 360d | 2025-11-04 | 1 | 3 | 19 | 2 | 8 | 7 |
+| last720d | 2024-11-09 | 2 | 14 | 20 | 8 | 10 | 37 |
 
 ## Release assets
 
@@ -113,4 +113,4 @@ Install metadata for hexyl lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:13:22Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:12:40Z._
