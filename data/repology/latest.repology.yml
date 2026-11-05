@@ -1,10 +1,43 @@
-- repo: homebrew
+- repo: arch
+  subrepo: extra
   srcname: hexyl
+  binname: hexyl
   visiblename: hexyl
   version: 0.17.0
-  origversion: null
+  origversion: 0.17.0-2
   status: newest
-  summary: Command-line hex viewer
+  summary: Colored command-line hex viewer
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: aur
+  srcname: hexyl-git
+  binname: hexyl-git
+  visiblename: hexyl-git
+  version: 0.13.0.r5.g2a53448
+  origversion: 0.13.0.r5.g2a53448-1
+  status: rolling
+  summary: A command-line hex viewer
+  maintainers:
+    - m3thodic@aur
+  licenses:
+    - Apache
+    - MIT
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-hexyl
+  binnames:
+    - librust-hexyl-dev
+    - hexyl
+  visiblename: rust-hexyl
+  version: 0.8.0
+  origversion: 0.8.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - wolfgang@silbermayr.at
+  categories:
+    - misc
 - repo: aerynos
   srcname: hexyl
   visiblename: hexyl
@@ -150,31 +183,6 @@
     - MIT
   categories:
     - File tools
-- repo: arch
-  subrepo: extra
-  srcname: hexyl
-  binname: hexyl
-  visiblename: hexyl
-  version: 0.17.0
-  origversion: 0.17.0-2
-  status: newest
-  summary: Colored command-line hex viewer
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: aur
-  srcname: hexyl-git
-  binname: hexyl-git
-  visiblename: hexyl-git
-  version: 0.13.0.r5.g2a53448
-  origversion: 0.13.0.r5.g2a53448-1
-  status: rolling
-  summary: A command-line hex viewer
-  maintainers:
-    - m3thodic@aur
-  licenses:
-    - Apache
-    - MIT
 - repo: chocolatey
   binname: hexyl
   visiblename: hexyl
@@ -495,6 +503,21 @@
     - bofh@freebsd.org
   categories:
     - sysutils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-hexyl
+  binnames:
+    - librust-hexyl-dev
+    - hexyl
+  visiblename: rust-hexyl
+  version: 0.16.0
+  origversion: 0.16.0-4
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - wolfgang@silbermayr.at
+  categories:
+    - misc
 - repo: gentoo_ovl_guru
   srcname: sys-apps/hexyl
   visiblename: sys-apps/hexyl
@@ -515,6 +538,13 @@
   version: 0.16.0
   origversion: null
   status: outdated
+  summary: Command-line hex viewer
+- repo: homebrew
+  srcname: hexyl
+  visiblename: hexyl
+  version: 0.17.0
+  origversion: null
+  status: newest
   summary: Command-line hex viewer
 - repo: homebrew
   srcname: hexyl
@@ -716,40 +746,6 @@
   maintainers:
     - dywedir@gra.red
     - sandro.jaeckel@gmail.com
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-hexyl
-  binnames:
-    - librust-hexyl-dev
-    - hexyl
-  visiblename: rust-hexyl
-  version: 0.16.0
-  origversion: 0.16.0-4
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - wolfgang@silbermayr.at
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: hexyl
-  visiblename: hexyl
-  version: 0.17.0
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
-- repo: slackbuilds
-  srcname: system/hexyl
-  visiblename: system/hexyl
-  version: 0.17.0
-  origversion: null
-  status: newest
-  maintainers:
-    - boxjake.romero@protonmail.com
-  categories:
-    - system
 - repo: openbsd
   srcname: textproc/hexyl
   binname: hexyl
@@ -782,6 +778,15 @@
     - MIT or ASL 2.0
   categories:
     - Unspecified
+- repo: scoop
+  subrepo: main
+  binname: hexyl
+  visiblename: hexyl
+  version: 0.17.0
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: rust-hexyl
@@ -1025,21 +1030,16 @@
     - wolfgang@silbermayr.at
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: rust-hexyl
-  binnames:
-    - librust-hexyl-dev
-    - hexyl
-  visiblename: rust-hexyl
-  version: 0.8.0
-  origversion: 0.8.0-2
-  status: outdated
+- repo: slackbuilds
+  srcname: system/hexyl
+  visiblename: system/hexyl
+  version: 0.17.0
+  origversion: null
+  status: newest
   maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - wolfgang@silbermayr.at
+    - boxjake.romero@protonmail.com
   categories:
-    - misc
+    - system
 - repo: t2
   srcname: hexyl
   visiblename: hexyl
