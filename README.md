@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,301 · **Forks**: 282 · **Open issues**: 126 · **Contributors**: 57
+- **Stars**: 10,302 · **Forks**: 282 · **Open issues**: 126 · **Contributors**: 57
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last60d | 2026-09-10 | 0 | 0 | 6 | 0 | 2 | 0 |
-| 90d | 2026-08-11 | 0 | 0 | 9 | 0 | 2 | 0 |
-| last180d | 2026-05-13 | 0 | 0 | 13 | 0 | 3 | 0 |
-| 360d | 2025-11-14 | 1 | 3 | 19 | 2 | 8 | 7 |
-| last720d | 2024-11-19 | 2 | 13 | 20 | 8 | 10 | 36 |
+| 30d | 2026-10-11 | 0 | 0 | 2 | 0 | 1 | 0 |
+| last60d | 2026-09-11 | 0 | 0 | 6 | 0 | 2 | 0 |
+| 90d | 2026-08-12 | 0 | 0 | 9 | 0 | 2 | 0 |
+| last180d | 2026-05-14 | 0 | 0 | 13 | 0 | 3 | 0 |
+| 360d | 2025-11-15 | 1 | 3 | 19 | 2 | 8 | 7 |
+| last720d | 2024-11-20 | 2 | 12 | 20 | 8 | 10 | 36 |
 
 ## Release assets
 
@@ -88,16 +88,17 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **89** distros on [repology.org](https://repology.org/project/hexyl). **32** are ✅ on the latest upstream release, **54** are ⚠️ on an older version.
+Reported by **90** distros on [repology.org](https://repology.org/project/hexyl). **32** are ✅ on the latest upstream release, **55** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `0.16.0` | ⚠️ outdated |
+| Debian 14 | `0.16.0` | ⚠️ outdated |
 | Debian 13 | `0.8.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.16.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.8.0` | ⚠️ outdated |
 | Arch | `0.17.0` | ✅ latest |
-| Homebrew | `0.17.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `0.14.0` | ⚠️ outdated |
 | Nix unstable | `0.17.0` | ✅ latest |
 | Void | `0.17.0` | ✅ latest |
@@ -113,4 +114,4 @@ Install metadata for hexyl lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T06:57:38Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:47:29Z._
