@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 10,333 · **Forks**: 418 · **Open issues**: 126 · **Contributors**: 57
+- **Stars**: 10,336 · **Forks**: 419 · **Open issues**: 126 · **Contributors**: 57
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 5 | 0 | 2 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 7 | 0 | 2 | 0 |
-| last180d | 2026-05-28 | 0 | 0 | 13 | 0 | 3 | 0 |
-| 360d | 2025-11-29 | 1 | 2 | 19 | 2 | 8 | 7 |
-| last720d | 2024-12-04 | 2 | 12 | 20 | 8 | 10 | 35 |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 5 | 0 | 2 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 7 | 0 | 2 | 0 |
+| last180d | 2026-05-29 | 0 | 0 | 13 | 0 | 3 | 0 |
+| 360d | 2025-11-30 | 1 | 2 | 19 | 2 | 8 | 7 |
+| last720d | 2024-12-05 | 2 | 12 | 20 | 8 | 10 | 35 |
 
 ## Release assets
 
@@ -86,25 +86,6 @@ Lowest-scoring checks:
 | [hexyl_0.17.0_armhf.deb](https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl_0.17.0_armhf.deb) | 471.9 KiB | `runtime/deb/armhf` |
 | [hexyl_0.17.0_i686.deb](https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl_0.17.0_i686.deb) | 500.2 KiB | `other` |
 
-## Distribution status
-
-Reported by **90** distros on [repology.org](https://repology.org/project/hexyl). **32** are ✅ on the latest upstream release, **55** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.16.0` | ⚠️ outdated |
-| Debian 14 | `0.16.0` | ⚠️ outdated |
-| Debian 13 | `0.8.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.16.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.8.0` | ⚠️ outdated |
-| Arch | `0.17.0` | ✅ latest |
-| Homebrew | `0.17.0` | ✅ latest |
-| Fedora rawhide | `0.14.0` | ⚠️ outdated |
-| Nix unstable | `0.17.0` | ✅ latest |
-| Void | `0.17.0` | ✅ latest |
-| Alpine edge | `0.17.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.17.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for hexyl lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `hexyl` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -114,4 +95,4 @@ Install metadata for hexyl lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:30:12Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:56:16Z._
